@@ -27,4 +27,4 @@ humidity, temperature = read_sensor()
 client.publish("home/temperature", temperature)
 
 # Publish the humidity data to the "home/humidity" topic
-client.publish("home/humidity", humidity) hai
+client.publish("home/humidity", humidity) 
